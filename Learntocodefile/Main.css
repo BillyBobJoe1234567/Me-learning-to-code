@@ -1,0 +1,20 @@
+.b1 {
+    width: 100%;
+    color: #fff;
+    background: #000;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    font-size: 3rem;
+    cursor: pointer;
+}
+.separation {
+    width: 300px;
+    min-width: 300px;
+    background: grey;
+    justify-items: center;
+}
+#showtime {
+    background: #000;
+    width: 50%
+}
