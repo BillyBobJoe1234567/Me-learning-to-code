@@ -3,16 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Button</title>
-    <link rel="stylesheet" href="Main.css">
+    <title>first file</title>
+    <link rel="stylesheet" href="Mai.css">
 </head>
 <body>
-    <div class="separation">
-        <button id="myButton" class="b1" onclick="namechange()">Show</button> 
-    </div>
-    <div id="showtime">
-        <p id="mytxt">hello</p>
-    </div>
-    <script src="Main.js"></script>
+    <form>
+        <label for="name">Enter your name:</label>
+        <link type="text" id="name" name="name">
+    </form>
+    <button class="btn" onclick="alt()"><strong>Hello</strong></button>
+    <script>
+        function alt() {
+            alert("How do you do?")
+        }
+    </script>
 </body>
 </html>
