@@ -3,9 +3,9 @@ function alt() {
     if (name1 === "Laurence") {
         alert("Welcome, " + name1 + "!");
     } else if (name1 === "Henry") {
-        alert("You are unable to visit this page");
+        alert("Go away "+name1+" please talk to Laurence to access this site.");
     } else if (name1 === "Jefe"){
-        alert("Welcome master,"+name1+". I am in your service.");
+        alert("Welcome master, "+name1+". I am in your service.");
     } else if (name1 === "Mum"){
         alert("Hello "+name1+", would you like some wine?")
     } else {
